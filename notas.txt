@@ -1,0 +1,8 @@
+-reemplazar en ModelUsuarios por usuarios reales
+-crear login.html en view/pages
+-crear calculadora.html en view/pages
+-crear pagina principal
+-terminar la función validarUsuario dentro de controller ControllerUsuarios.js
+-crear modelo de planes de retiro
+-crear controller planes de retiro
+-crear archivo css en view/public/css
