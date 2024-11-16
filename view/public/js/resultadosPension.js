@@ -14,5 +14,5 @@ function mostrarResultadoPension() {
         <p><strong></strong> ${mensajeTiempoRestante}</p>`;
 }
 
-// Llamar la función para mostrar los resultados cuando el DOM esté listo
+
 document.addEventListener("DOMContentLoaded", mostrarResultadoPension);
