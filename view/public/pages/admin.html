@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>BIENVENIDO AL ADMIN</h1>
+    <button id="btnIrLogin">VOLVER AL LOGIN</button>
+    <main id="main">
+        <h1>Lista de Usuarios</h1>
+        <div id="userList"></div>
+        <button id="toggleFormButton">Agregar Usuario</button>
+        <div id="addUserFormContainer" class="hidden">
+            <h2>Agregar Usuario</h2>
+            <form id="addUserForm">
+                <input type="text" id="nombre" placeholder="Nombre" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="password" placeholder="Password" required>
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+    </main>
+</body>
+<script src="/view/public/js/admin.js"></script>
+</html>

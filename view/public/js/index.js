@@ -1,5 +1,3 @@
-import { getUserLogged } from "../../../controller/ControllerLogin.js";
-console.log("holadasdas")
 const buttons = document.querySelectorAll(".redir")
 import { getUserLogged } from "../../../controller/ControllerUsuarioLogueado.js";
 
@@ -20,11 +18,11 @@ buttons.forEach(button =>{
     button.addEventListener("click", startCalcs)
 })
 //Yeison
-// const btnIniciarSesion = document.getElementById("btnIniciarSesion")
-// btnIniciarSesion.addEventListener("click", ()=>{
-//     window.location.href="view/pages/login.html"
-// })
+const btnIniciarSesion = document.getElementById("btnIniciarSesion")
+btnIniciarSesion.addEventListener("click", ()=>{
+    window.location.href="view/public/pages/login.html"
+})
 const btnRegistrarse = document.getElementById("btnRegistrarse")
 btnRegistrarse.addEventListener("click", ()=>{
-    window.location.href="view/pages/registro.html"
+    window.location.href="view/public/pages/registro.html"
 })
