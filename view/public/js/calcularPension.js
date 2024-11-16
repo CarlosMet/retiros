@@ -15,6 +15,7 @@ function calcularPension() {
     if (!nombre || !apellidos || !genero || !diaNacimiento || !mesNacimiento || !añoNacimiento || !salario) {
         alert("Por favor, complete todos los campos obligatorios.");
         return;
+        
     }
 
     const totalSemanas = semanasColpensiones + semanasPrivados;

@@ -10,7 +10,8 @@ const startCalcs = ()=>{
         window.location.href = "../../../view/public/pages/calculadora.html"
     }else{
         console.log("index")
-        window.location.href = "../../../view/public/pages/index.html"
+        window.location.href = "../../../view/public/pages/resultados.html"
+        
     }
 }
 
