@@ -1,4 +1,4 @@
-import { getUserLogged } from "../../../controller/ControllerUsuarioLogueado.js";
+import { getUserLogged } from "../../../controller/ControllerLogin.js";
 
 const redirectButtons = document.querySelectorAll(".redirect")
 
@@ -9,7 +9,7 @@ const startCalcs = ()=>{
     if(isLogged){
         window.location.href = "../../../view/public/pages/calculadora.html"
     }else{
-        window.location.href = "../../../view/pages/login.html"
+        window.location.href = "../../../view/public/pages/login.html"
     }
 }
 
