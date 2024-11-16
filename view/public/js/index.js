@@ -6,13 +6,7 @@ const startCalcs = ()=>{
     
     const isLogged = getUserLogged()
     const user =  {}
-    if(isLogged){
-        window.location.href = "../../../view/public/pages/calculadora.html"
-    }else{
-        console.log("index")
-        window.location.href = "../../../view/public/pages/resultados.html"
-        
-    }
+    
 }
 
 redirectButtons.forEach(button =>{
