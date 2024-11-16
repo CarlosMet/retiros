@@ -1,4 +1,4 @@
-import { getUserLogged } from "../../../controller/ControllerLogin.js";
+import { getUserLogged } from "../../../controller/ControllerUsuarioLogueado.js";
 
 const redirectButtons = document.querySelectorAll(".redirect")
 
