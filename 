@@ -1,0 +1,73 @@
+[33mcommit 6b0cbdaf521f4f1cb356b02a3e5cbaa268aa5b4b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Carlos metaute hoyos <carlosmet9409@gmail.com>
+Date:   Fri Nov 15 23:36:06 2024 -0500
+
+    archivos pages
+
+[33mcommit adfd1412f95b3146a0c475ad8c528e90b9754eab[m
+Author: yeisonmenau <yeisonandresdh@gmail.com>
+Date:   Fri Nov 15 23:31:16 2024 -0500
+
+    creacion de la carpeta pages
+
+[33mcommit ceae4bacb8a290f433df9d9da5b47163d6f0c4e0[m
+Merge: e486a39 efd88e6
+Author: sebastian mejia <juansebastianmejiaagudelo73@gmail.com>
+Date:   Fri Nov 15 23:27:38 2024 -0500
+
+    calculadora terminada
+
+[33mcommit e486a39285eecce01bb235dd7bcfdc95e8da490a[m
+Author: sebastian mejia <juansebastianmejiaagudelo73@gmail.com>
+Date:   Fri Nov 15 23:24:34 2024 -0500
+
+    calculadora terminada
+
+[33mcommit efd88e609c92a2e9c5c61cec9bcd698cb919d456[m
+Merge: 44f9ec0 86e24b2
+Author: Carlos metaute hoyos <carlosmet9409@gmail.com>
+Date:   Fri Nov 15 23:19:50 2024 -0500
+
+    Merge branch 'main' of https://github.com/CarlosMet/retiros
+
+[33mcommit 44f9ec07517851f44936a03541f002b53718135d[m
+Author: Carlos metaute hoyos <carlosmet9409@gmail.com>
+Date:   Fri Nov 15 23:19:44 2024 -0500
+
+    prueba
+
+[33mcommit 86e24b2e9f7dd08aa6f936912b459b4808669748[m
+Author: yeisonmenau <yeisonandresdh@gmail.com>
+Date:   Fri Nov 15 23:15:19 2024 -0500
+
+    login avance
+
+[33mcommit c7868c64ea340f04ecbdcebb03b90d02981ccbf5[m
+Author: Carlos metaute hoyos <carlosmet9409@gmail.com>
+Date:   Fri Nov 15 21:45:43 2024 -0500
+
+    funcion para verificar si el usuario esta logueado añadida
+
+[33mcommit e181e74f0d59a3a04d1eeba1b99f32148f4ac2f7[m
+Author: Carlos metaute hoyos <carlosmet9409@gmail.com>
+Date:   Fri Nov 15 21:13:15 2024 -0500
+
+    banner cards added
+
+[33mcommit 735e8edb40be3b4c8743f75a750c4c314fc5fefa[m
+Author: Carlos metaute hoyos <carlosmet9409@gmail.com>
+Date:   Fri Nov 15 20:06:17 2024 -0500
+
+    full banner added
+
+[33mcommit 79727fbabd361379f23de79782776644f559d93d[m
+Author: Carlos metaute hoyos <carlosmet9409@gmail.com>
+Date:   Fri Nov 15 14:17:36 2024 -0500
+
+    creacion de navbar y tareas adicionales
+
+[33mcommit dbcfa2534648fff7e4eefe94ebdfe79d4cd51fad[m
+Author: Carlos metaute hoyos <carlosmet9409@gmail.com>
+Date:   Fri Nov 15 13:48:44 2024 -0500
+
+    estructura principal
