@@ -13,11 +13,15 @@ loginForm.addEventListener("submit", (e)=>{
     
     const res = validarUsuario(email, password)
 
-    if(res && email === "usuario@mail.com"){
-        console.log("user")
-    }else if(res && email === "admin@mail.com"){
+    if(res && email === "admin@mail.com"){
         console.log("admin")
         window.location.href = "/view/public/pages/admin.html"
+    }else if(res ){
+        console.log("logged as user")
+        window.location.href = "/view/public/pages/servicios.html"
+        
+    }else{
+        console.log(usuarios, res)
     }
         
     
