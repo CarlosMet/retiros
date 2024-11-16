@@ -9,7 +9,8 @@ const startCalcs = ()=>{
     if(isLogged){
         window.location.href = "../../../view/public/pages/calculadora.html"
     }else{
-        window.location.href = "../../../view/public/pages/login.html"
+        console.log("index")
+        window.location.href = "../../../view/public/pages/index.html"
     }
 }
 
