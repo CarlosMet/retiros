@@ -19,9 +19,9 @@ redirectButtons.forEach(button =>{
 //Yeison
 const btnIniciarSesion = document.getElementById("btnIniciarSesion")
 btnIniciarSesion.addEventListener("click", ()=>{
-    window.location.href="view/public/pages/login.html"
+    window.location.href="view/pages/login.html"
 })
 const btnRegistrarse = document.getElementById("btnRegistrarse")
 btnRegistrarse.addEventListener("click", ()=>{
-    window.location.href="view/public/pages/registro.html"
+    window.location.href="view/pages/registro.html"
 })
