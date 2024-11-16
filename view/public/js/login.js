@@ -21,6 +21,7 @@ loginForm.addEventListener("submit", (e)=>{
         window.location.href = "/view/public/pages/servicios.html"
         
     }else{
+        alert("Email y/o contraseña incorrectas")
         console.log(usuarios, res)
     }
         

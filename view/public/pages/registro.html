@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Registro</title>
 </head>
-<body>
-    <main id="main">        
-        <form id="registroForm">
-            <label>NOMBRE</label> 
-            <input id="nombreRegistro" required autofocus>  
-            <label>CORREO</label>
-            <input type="email" id="emailRegistro" required> 
-            <label>CONTRASEÑA</label>
-            <input type="password" id="passwordRegistro" required> 
-            <button type="submit" id="btnRegistro">REGISTRAR</button>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <main class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+        <section class="text-center mb-6">
+            <h1 class="text-2xl font-bold text-[#01b43e]">Registro</h1>
+        </section>
+        <form id="registroForm" class="flex flex-col space-y-4">
+            <label for="nombreRegistro" class="text-gray-700">NOMBRE</label>
+            <input id="nombreRegistro" required autofocus class="border border-gray-300 p-2 rounded-md focus:outline-none focus:border-[#01b43e]">
+
+            <label for="emailRegistro" class="text-gray-700">CORREO</label>
+            <input type="email" id="emailRegistro" required class="border border-gray-300 p-2 rounded-md focus:outline-none focus:border-[#01b43e]">
+
+            <label for="passwordRegistro" class="text-gray-700">CONTRASEÑA</label>
+            <input type="password" id="passwordRegistro" required class="border border-gray-300 p-2 rounded-md focus:outline-none focus:border-[#01b43e]">
+
+            <button type="submit" id="btnRegistro" class="bg-[#01b43e] text-white py-2 rounded-md hover:bg-green-600 transition">REGISTRAR</button>
         </form>
     </main>
+    <script type="module" src="/view/public/js/registro.js"></script>
 </body>
-<script type="module" src="/view/public/js/registro.js"></script>
 </html>
