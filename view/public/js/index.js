@@ -1,6 +1,7 @@
 import { getUserLogged } from "../../../controller/ControllerLogin.js";
 console.log("holadasdas")
 const buttons = document.querySelectorAll(".redir")
+import { getUserLogged } from "../../../controller/ControllerUsuarioLogueado.js";
 
 
 const startCalcs = ()=>{
@@ -12,6 +13,7 @@ const startCalcs = ()=>{
     }else{
         window.location.href = "../../../view/public/pages/login.html"
     }
+    
 }
 
 buttons.forEach(button =>{
