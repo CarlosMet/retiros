@@ -1,4 +1,4 @@
-import { usuarios } from "../../../model/ModelUsuarios"
+import { usuarios } from "../../../model/ModelUsuarios.js"
 const volver = document.getElementById("btnIrLogin")
 volver.addEventListener("click", ()=>{
     window.location.href="/view/public/pages/login.html"

@@ -1,23 +1,27 @@
 import { validarUsuario } from "/controller/ControllerUsuarios.js";
 import { usuarios } from "/model/ModelUsuarios.js"
 
-console.log();
+
 
 const loginForm = document.getElementById("loginForm")
+
 loginForm.addEventListener("submit", (e)=>{
     e.preventDefault()
     const email = document.getElementById("email").value 
-    const password = document.getElementById("password").value 
-    if (email==="admin@mail.com" && password==="123"){
-        console.log("entro aca 1");
-        return window.location.href="/view/public/pages/admin.html"
-    }else if (validarUsuario()){
-        console.log("entro aca 2");
-        return window.location.href="/view/public/pages/calculadora.html"
-    }else{
-        console.log("entro aca 3");
-        return alert("Usuario y/o contraseña incorrectas")
+    const password = document.getElementById("password").value
+
+    
+    const res = validarUsuario(email, password)
+
+    if(res && email === "usuario@mail.com"){
+        console.log("user")
+    }else if(res && email === "admin@mail.com"){
+        console.log("admin")
+        window.location.href = "/view/public/pages/admin.html"
     }
+        
+    
+    
 })
 
 if(localStorage.getItem("registro")==="true"){
