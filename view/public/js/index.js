@@ -1,28 +1,27 @@
 import { getUserLogged } from "../../../controller/ControllerLogin.js";
+console.log("holadasdas")
+const buttons = document.querySelectorAll(".redir")
 
-const redirectButtons = document.querySelectorAll(".redirect")
 
 const startCalcs = ()=>{
     
     const isLogged = getUserLogged()
     const user =  {}
     if(isLogged){
-        window.location.href = "../../../view/public/pages/calculadora.html"
+        window.location.href = "../../../view/public/pages/servicios.html"
     }else{
-        console.log("index")
-        window.location.href = "../../../view/public/pages/resultados.html"
-        
+        window.location.href = "../../../view/public/pages/login.html"
     }
 }
 
-redirectButtons.forEach(button =>{
+buttons.forEach(button =>{
     button.addEventListener("click", startCalcs)
 })
 //Yeison
-const btnIniciarSesion = document.getElementById("btnIniciarSesion")
-btnIniciarSesion.addEventListener("click", ()=>{
-    window.location.href="view/pages/login.html"
-})
+// const btnIniciarSesion = document.getElementById("btnIniciarSesion")
+// btnIniciarSesion.addEventListener("click", ()=>{
+//     window.location.href="view/pages/login.html"
+// })
 const btnRegistrarse = document.getElementById("btnRegistrarse")
 btnRegistrarse.addEventListener("click", ()=>{
     window.location.href="view/pages/registro.html"
