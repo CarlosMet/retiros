@@ -40,9 +40,11 @@ document.addEventListener("DOMContentLoaded", ()=>{
         burgerMenu.addEventListener("click", ()=>{
             middleLine.classList.toggle("opacity-0")            
             topLine.classList.toggle("rotate-45")
-            topLine.classList.toggle("translate-y-2")
+            topLine.classList.toggle("translate-y-2") 
+            topLine.classList.toggle("bg-white")           
             bottomLine.classList.toggle("-rotate-45")
             bottomLine.classList.toggle("-translate-y-2")
+            bottomLine.classList.toggle("bg-white") 
         })
     }
 })
