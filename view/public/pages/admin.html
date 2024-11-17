@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    boxShadow: {
+                        green: '0 0px 30px rgba(1, 180, 0.01, 10)', 
+                    },
+                },
+            },
+        };
+    </script>
     <title>Admin Panel</title>
+    <link rel="icon" href="/view/public/images/icono.png" type="image/png">
 </head>
 <body class="bg-gray-100 min-h-screen p-6">
     <header class="mb-6">
         <h1 class="text-3xl font-bold text-[#01b43e] mb-4">BIENVENIDO AL ADMIN</h1>
         <button id="btnIrLogin" class="bg-[#01b43e] text-white px-4 py-2 rounded-md hover:bg-[#019e36] transition-colors">VOLVER AL LOGIN</button>
     </header>
-    <main id="main" class="bg-white p-6 rounded-lg shadow-lg">
+    <main id="main" class="bg-white p-6 rounded-lg shadow-green">
         <h1 class="text-2xl font-semibold text-gray-800 mb-4">Lista de Usuarios</h1>
-        <div id="userList" class="mb-6"></div>
+        
+        <!-- Contenedor de Usuarios -->
+        <div id="userList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+           
+        </div> 
+        
         <button id="toggleFormButton" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors">Agregar Usuario</button>
         
         <div id="addUserFormContainer" class="hidden mt-6">
