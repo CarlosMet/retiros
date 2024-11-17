@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const topLine = document.getElementById("topLine")
     const middleLine = document.getElementById("middleLine")
     const bottomLine = document.getElementById("bottomLine")
+    const absMenu = document.getElementById("abs")
 
     if(burgerMenu){
         burgerMenu.addEventListener("click", ()=>{
@@ -45,6 +46,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
             bottomLine.classList.toggle("-rotate-45")
             bottomLine.classList.toggle("-translate-y-2")
             bottomLine.classList.toggle("bg-white") 
+            absMenu.classList.toggle("hidden")
         })
     }
 })
