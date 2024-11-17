@@ -1,7 +1,5 @@
 import { validarUsuario } from "/controller/ControllerUsuarios.js";
-import { usuarios } from "/model/ModelUsuarios.js"
-
-
+import { usuarios } from "../../../model/ModelUsuarios.js";
 
 const loginForm = document.getElementById("loginForm")
 
@@ -13,22 +11,20 @@ loginForm.addEventListener("submit", (e)=>{
     
     const res = validarUsuario(email, password)
 
-    if(res && email === "admin@mail.com"){
-        console.log("admin")
+    if(res && email === "admin@mail.com"){        
         window.location.href = "/view/public/pages/admin.html"
-    }else if(res ){
-        console.log("logged as user")
+    }else if(res ){        
         window.location.href = "/view/public/pages/servicios.html"
-        
+        const userForLocalStorage = usuarios.filter((usuario)=>{
+            return usuario.email === email
+        })
+        window.localStorage.setItem("userLogged", JSON.stringify(userForLocalStorage[0]))
     }else{
         alert("Email y/o contraseña incorrectas")
-        console.log(usuarios, res)
+        
     }
         
     
     
 })
 
-if(localStorage.getItem("registro")==="true"){
-    usuarios.push(JSON.parse(localStorage.getItem("usuarios")));
-}
